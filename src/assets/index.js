@@ -22,7 +22,7 @@ import angular from "./tech/angular.png";
 
 
 import BNYM from "./company/BNYM.png";
-import Abbvie from "./company/Abbvie.png";
+import AbbVie from "./company/AbbVie.png";
 import JLP from "./company/JLP.png";
 
 
@@ -52,7 +52,7 @@ export {
   typescript,
   threejs,
   BNYM,
-  Abbvie,
+  AbbVie,
   JLP,
   EMart,
   expense,

@@ -15,7 +15,7 @@ import {
     figma,
     docker,
     BNYM,
-    Abbvie,
+    AbbVie,
     JLP,
     threejs,
     EMart,
@@ -128,8 +128,8 @@ import {
     },
     {
       title: "Frontend Developer",
-      company_name: "Abbvie",
-      icon: Abbvie,
+      company_name: "AbbVie",
+      icon: AbbVie,
       iconBg: "#383E56",
       date: "May 2020 - December 2021",
       points: [
