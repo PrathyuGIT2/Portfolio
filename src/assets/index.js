@@ -26,9 +26,9 @@ import Abbvie from "./company/Abbvie.jpeg";
 import JLP from "./company/JLP.png";
 
 
-import EMart from "/Users/prathyureddy/Desktop/Portfolio/src/assets/EMart.png";
-import expense from "/Users/prathyureddy/Desktop/Portfolio/src/assets/expense.png";
-import hospital from "/Users/prathyureddy/Desktop/Portfolio/src/assets/hospital.png";
+import EMart from "./EMart.png";
+import expense from "./expense.png";
+import hospital from "./hospital.png";
 
 export {
   logo,
