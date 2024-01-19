@@ -21,8 +21,8 @@ import threejs from "./tech/threejs.svg";
 import angular from "./tech/angular.png";
 
 
-import BNYM from "./company/BNYM.jpeg";
-import Abbvie from "./company/Abbvie.jpeg";
+import BNYM from "./company/BNYM.png";
+import Abbvie from "./company/Abbvie.png";
 import JLP from "./company/JLP.png";
 
 
