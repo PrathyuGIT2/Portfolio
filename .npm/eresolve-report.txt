@@ -1,0 +1,248 @@
+# npm resolution error report
+
+2024-01-17T21:43:43.301Z
+
+While resolving: karma-jasmine-html-reporter@1.7.0
+Found: jasmine-core@3.6.0
+node_modules/jasmine-core
+  dev jasmine-core@"~3.6.0" from the root project
+  jasmine-core@"^3.6.0" from karma-jasmine@4.0.2
+  node_modules/karma-jasmine
+    dev karma-jasmine@"~4.0.0" from the root project
+    peer karma-jasmine@">=1.1" from karma-jasmine-html-reporter@1.7.0
+    node_modules/karma-jasmine-html-reporter
+      dev karma-jasmine-html-reporter@"^1.5.0" from the root project
+
+Could not resolve dependency:
+peer jasmine-core@">=3.8" from karma-jasmine-html-reporter@1.7.0
+node_modules/karma-jasmine-html-reporter
+  dev karma-jasmine-html-reporter@"^1.5.0" from the root project
+
+Conflicting peer dependency: jasmine-core@5.1.1
+node_modules/jasmine-core
+  peer jasmine-core@">=3.8" from karma-jasmine-html-reporter@1.7.0
+  node_modules/karma-jasmine-html-reporter
+    dev karma-jasmine-html-reporter@"^1.5.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "edge": {
+    "type": "peer",
+    "name": "jasmine-core",
+    "spec": ">=3.8",
+    "error": "INVALID",
+    "from": {
+      "name": "karma-jasmine-html-reporter",
+      "version": "1.7.0",
+      "location": "node_modules/karma-jasmine-html-reporter",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "dev",
+          "name": "karma-jasmine-html-reporter",
+          "spec": "^1.5.0",
+          "from": {
+            "location": "/Users/prathyureddy/Desktop/Frontend Development/RentA-Car-FrontEnd-Angular"
+          }
+        }
+      ]
+    }
+  },
+  "dep": {
+    "name": "jasmine-core",
+    "version": "5.1.1",
+    "whileInstalling": {
+      "name": "karma-jasmine-html-reporter",
+      "version": "1.7.0",
+      "path": "/Users/prathyureddy/Desktop/Frontend Development/RentA-Car-FrontEnd-Angular/node_modules/karma-jasmine-html-reporter"
+    },
+    "location": "node_modules/jasmine-core",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "peer",
+        "name": "jasmine-core",
+        "spec": ">=3.8",
+        "error": "INVALID",
+        "from": {
+          "name": "karma-jasmine-html-reporter",
+          "version": "1.7.0",
+          "location": "node_modules/karma-jasmine-html-reporter",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "dev",
+              "name": "karma-jasmine-html-reporter",
+              "spec": "^1.5.0",
+              "from": {
+                "location": "/Users/prathyureddy/Desktop/Frontend Development/RentA-Car-FrontEnd-Angular"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "current": {
+    "name": "jasmine-core",
+    "version": "3.6.0",
+    "location": "node_modules/jasmine-core",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "dev",
+        "name": "jasmine-core",
+        "spec": "~3.6.0",
+        "from": {
+          "location": "/Users/prathyureddy/Desktop/Frontend Development/RentA-Car-FrontEnd-Angular"
+        }
+      },
+      {
+        "type": "prod",
+        "name": "jasmine-core",
+        "spec": "^3.6.0",
+        "from": {
+          "name": "karma-jasmine",
+          "version": "4.0.2",
+          "location": "node_modules/karma-jasmine",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "dev",
+              "name": "karma-jasmine",
+              "spec": "~4.0.0",
+              "from": {
+                "location": "/Users/prathyureddy/Desktop/Frontend Development/RentA-Car-FrontEnd-Angular"
+              }
+            },
+            {
+              "type": "peer",
+              "name": "karma-jasmine",
+              "spec": ">=1.1",
+              "from": {
+                "name": "karma-jasmine-html-reporter",
+                "version": "1.7.0",
+                "location": "node_modules/karma-jasmine-html-reporter",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "dev",
+                    "name": "karma-jasmine-html-reporter",
+                    "spec": "^1.5.0",
+                    "from": {
+                      "location": "/Users/prathyureddy/Desktop/Frontend Development/RentA-Car-FrontEnd-Angular"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "peerConflict": {
+    "current": {
+      "name": "jasmine-core",
+      "version": "3.6.0",
+      "location": "node_modules/jasmine-core",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "dev",
+          "name": "jasmine-core",
+          "spec": "~3.6.0",
+          "from": {
+            "location": "/Users/prathyureddy/Desktop/Frontend Development/RentA-Car-FrontEnd-Angular"
+          }
+        },
+        {
+          "type": "prod",
+          "name": "jasmine-core",
+          "spec": "^3.6.0",
+          "from": {
+            "name": "karma-jasmine",
+            "version": "4.0.2",
+            "location": "node_modules/karma-jasmine",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "dev",
+                "name": "karma-jasmine",
+                "spec": "~4.0.0",
+                "from": {
+                  "location": "/Users/prathyureddy/Desktop/Frontend Development/RentA-Car-FrontEnd-Angular"
+                }
+              },
+              {
+                "type": "peer",
+                "name": "karma-jasmine",
+                "spec": ">=1.1",
+                "from": {
+                  "name": "karma-jasmine-html-reporter",
+                  "version": "1.7.0",
+                  "location": "node_modules/karma-jasmine-html-reporter",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "dev",
+                      "name": "karma-jasmine-html-reporter",
+                      "spec": "^1.5.0",
+                      "from": {
+                        "location": "/Users/prathyureddy/Desktop/Frontend Development/RentA-Car-FrontEnd-Angular"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "peer": {
+      "name": "jasmine-core",
+      "version": "5.1.1",
+      "whileInstalling": {
+        "name": "karma-jasmine-html-reporter",
+        "version": "1.7.0",
+        "path": "/Users/prathyureddy/Desktop/Frontend Development/RentA-Car-FrontEnd-Angular/node_modules/karma-jasmine-html-reporter"
+      },
+      "location": "node_modules/jasmine-core",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "peer",
+          "name": "jasmine-core",
+          "spec": ">=3.8",
+          "error": "INVALID",
+          "from": {
+            "name": "karma-jasmine-html-reporter",
+            "version": "1.7.0",
+            "location": "node_modules/karma-jasmine-html-reporter",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "dev",
+                "name": "karma-jasmine-html-reporter",
+                "spec": "^1.5.0",
+                "from": {
+                  "location": "/Users/prathyureddy/Desktop/Frontend Development/RentA-Car-FrontEnd-Angular"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "strictPeerDeps": false,
+  "force": false,
+  "isMine": true
+}

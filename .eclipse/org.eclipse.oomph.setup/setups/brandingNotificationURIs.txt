@@ -1,0 +1,4 @@
+https://www.eclipse.org/setups/donate/?scope=${scope}&version=${scope.version}&campaign=2022-06
+https://www.eclipse.org/setups/donate/?scope=${scope}&version=${scope.version}&campaign=2022-09
+https://www.eclipse.org/setups/donate/?scope=${scope}&version=${scope.version}&campaign=2022-12
+https://www.eclipse.org/setups/donate/?scope=${scope}&version=${scope.version}&campaign=2023-03

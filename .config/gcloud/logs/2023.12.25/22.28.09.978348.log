@@ -1,0 +1,528 @@
+2023-12-25 22:28:09,979 DEBUG    root            Loaded Command Group: ['gcloud', 'meta']
+2023-12-25 22:28:09,981 DEBUG    root            Loaded Command Group: ['gcloud', 'meta', 'list_commands']
+2023-12-25 22:28:09,982 DEBUG    root            Running [gcloud.meta.list-commands] with arguments: []
+2023-12-25 22:28:09,983 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench']
+2023-12-25 22:28:09,984 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances']
+2023-12-25 22:28:10,000 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'upgrade']
+2023-12-25 22:28:10,013 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'check_instance_upgradability']
+2023-12-25 22:28:10,015 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'list']
+2023-12-25 22:28:10,016 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'describe']
+2023-12-25 22:28:10,018 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'delete']
+2023-12-25 22:28:10,021 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'start']
+2023-12-25 22:28:10,023 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'update']
+2023-12-25 22:28:10,026 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'diagnose']
+2023-12-25 22:28:10,028 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'reset']
+2023-12-25 22:28:10,036 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'get_iam_policy']
+2023-12-25 22:28:10,042 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'remove_iam_policy_binding']
+2023-12-25 22:28:10,044 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'create']
+2023-12-25 22:28:10,076 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'set_iam_policy']
+2023-12-25 22:28:10,081 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'add_iam_policy_binding']
+2023-12-25 22:28:10,084 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'stop']
+2023-12-25 22:28:10,086 DEBUG    root            Loaded Command Group: ['gcloud', 'workbench', 'instances', 'rollback']
+2023-12-25 22:28:10,091 DEBUG    root            Loaded Command Group: ['gcloud', 'survey']
+2023-12-25 22:28:10,092 DEBUG    root            Loaded Command Group: ['gcloud', 'unlock']
+2023-12-25 22:28:10,093 DEBUG    root            Loaded Command Group: ['gcloud', 'iam']
+2023-12-25 22:28:10,095 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload_identity_pools']
+2023-12-25 22:28:10,158 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'list']
+2023-12-25 22:28:10,162 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'create_cred_config']
+2023-12-25 22:28:10,163 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'operations']
+2023-12-25 22:28:10,167 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'operations', 'describe']
+2023-12-25 22:28:10,174 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'describe']
+2023-12-25 22:28:10,180 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'delete']
+2023-12-25 22:28:10,183 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed_identities']
+2023-12-25 22:28:10,188 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'list']
+2023-12-25 22:28:10,192 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'operations']
+2023-12-25 22:28:10,196 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'operations', 'describe']
+2023-12-25 22:28:10,201 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'workload_sources']
+2023-12-25 22:28:10,206 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'workload-sources', 'delete']
+2023-12-25 22:28:10,215 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'workload-sources', 'create']
+2023-12-25 22:28:10,250 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'workload-sources', 'update']
+2023-12-25 22:28:10,286 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'workload-sources', 'describe']
+2023-12-25 22:28:10,295 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'workload-sources', 'list']
+2023-12-25 22:28:10,300 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'workload-sources', 'operations']
+2023-12-25 22:28:10,304 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'workload-sources', 'operations', 'describe']
+2023-12-25 22:28:10,314 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'describe']
+2023-12-25 22:28:10,323 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'delete']
+2023-12-25 22:28:10,331 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'undelete']
+2023-12-25 22:28:10,379 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'create']
+2023-12-25 22:28:10,388 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'managed-identities', 'update']
+2023-12-25 22:28:10,401 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'create']
+2023-12-25 22:28:10,407 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'undelete']
+2023-12-25 22:28:10,410 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces']
+2023-12-25 22:28:10,414 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'list']
+2023-12-25 22:28:10,417 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'operations']
+2023-12-25 22:28:10,420 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'operations', 'describe']
+2023-12-25 22:28:10,425 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'workload_sources']
+2023-12-25 22:28:10,429 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'workload-sources', 'delete']
+2023-12-25 22:28:10,434 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'workload-sources', 'create']
+2023-12-25 22:28:10,467 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'workload-sources', 'update']
+2023-12-25 22:28:10,502 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'workload-sources', 'describe']
+2023-12-25 22:28:10,510 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'workload-sources', 'list']
+2023-12-25 22:28:10,514 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'workload-sources', 'operations']
+2023-12-25 22:28:10,518 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'workload-sources', 'operations', 'describe']
+2023-12-25 22:28:10,526 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'describe']
+2023-12-25 22:28:10,534 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'delete']
+2023-12-25 22:28:10,541 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'undelete']
+2023-12-25 22:28:10,549 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'create']
+2023-12-25 22:28:10,556 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'namespaces', 'update']
+2023-12-25 22:28:10,567 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'update']
+2023-12-25 22:28:10,570 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers']
+2023-12-25 22:28:10,576 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'create_aws']
+2023-12-25 22:28:10,586 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'update_oidc']
+2023-12-25 22:28:10,590 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'keys']
+2023-12-25 22:28:10,594 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'keys', 'delete']
+2023-12-25 22:28:10,602 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'keys', 'undelete']
+2023-12-25 22:28:10,611 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'keys', 'create']
+2023-12-25 22:28:10,619 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'keys', 'describe']
+2023-12-25 22:28:10,627 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'keys', 'list']
+2023-12-25 22:28:10,631 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'keys', 'operations']
+2023-12-25 22:28:10,635 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'keys', 'operations', 'describe']
+2023-12-25 22:28:10,644 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'list']
+2023-12-25 22:28:10,652 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'create_saml']
+2023-12-25 22:28:10,661 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'update_saml']
+2023-12-25 22:28:10,664 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'operations']
+2023-12-25 22:28:10,668 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'operations', 'describe']
+2023-12-25 22:28:10,676 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'describe']
+2023-12-25 22:28:10,684 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'delete']
+2023-12-25 22:28:10,691 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'undelete']
+2023-12-25 22:28:10,701 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'create_oidc']
+2023-12-25 22:28:10,710 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workload-identity-pools', 'providers', 'update_aws']
+2023-12-25 22:28:10,714 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service_accounts']
+2023-12-25 22:28:10,715 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'keys']
+2023-12-25 22:28:10,716 DEBUG    root            No implementation for release track [GA] for element: [/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/iam/service_accounts/keys/get_public_key]
+2023-12-25 22:28:10,721 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'keys', 'disable']
+2023-12-25 22:28:10,724 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'keys', 'list']
+2023-12-25 22:28:10,729 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'keys', 'upload']
+2023-12-25 22:28:10,732 DEBUG    root            No implementation for release track [GA] for element: [/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/iam/service_accounts/keys/config]
+2023-12-25 22:28:10,733 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'keys', 'delete']
+2023-12-25 22:28:10,734 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'keys', 'create']
+2023-12-25 22:28:10,738 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'keys', 'enable']
+2023-12-25 22:28:10,742 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'list']
+2023-12-25 22:28:10,743 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'sign_jwt']
+2023-12-25 22:28:10,743 DEBUG    root            No implementation for release track [GA] for element: [/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/iam/service_accounts/config]
+2023-12-25 22:28:10,744 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'describe']
+2023-12-25 22:28:10,748 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'delete']
+2023-12-25 22:28:10,753 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'undelete']
+2023-12-25 22:28:10,753 DEBUG    root            No implementation for release track [GA] for element: [/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/iam/service_accounts/identity_bindings]
+2023-12-25 22:28:10,758 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'update']
+2023-12-25 22:28:10,760 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'sign_blob']
+2023-12-25 22:28:10,764 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'disable']
+2023-12-25 22:28:10,766 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'get_iam_policy']
+2023-12-25 22:28:10,771 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'remove_iam_policy_binding']
+2023-12-25 22:28:10,773 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'create']
+2023-12-25 22:28:10,777 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'enable']
+2023-12-25 22:28:10,783 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'add_iam_policy_binding']
+2023-12-25 22:28:10,785 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'set_iam_policy']
+2023-12-25 22:28:10,786 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'simulator']
+2023-12-25 22:28:10,787 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'simulator', 'replay_recent_access']
+2023-12-25 22:28:10,788 DEBUG    root            No implementation for release track [GA] for element: [/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/iam/oauth_clients]
+2023-12-25 22:28:10,788 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'roles']
+2023-12-25 22:28:10,789 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'roles', 'delete']
+2023-12-25 22:28:10,790 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'roles', 'copy']
+2023-12-25 22:28:10,791 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'roles', 'create']
+2023-12-25 22:28:10,792 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'roles', 'undelete']
+2023-12-25 22:28:10,792 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'roles', 'update']
+2023-12-25 22:28:10,793 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'roles', 'list']
+2023-12-25 22:28:10,794 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'roles', 'describe']
+2023-12-25 22:28:10,794 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce_pools']
+2023-12-25 22:28:10,796 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'list']
+2023-12-25 22:28:10,797 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'create_cred_config']
+2023-12-25 22:28:10,824 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'get_iam_policy']
+2023-12-25 22:28:10,827 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'operations']
+2023-12-25 22:28:10,830 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'operations', 'describe']
+2023-12-25 22:28:10,837 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'describe']
+2023-12-25 22:28:10,843 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'delete']
+2023-12-25 22:28:10,846 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'create']
+2023-12-25 22:28:10,879 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'set_iam_policy']
+2023-12-25 22:28:10,885 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'undelete']
+2023-12-25 22:28:10,892 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'update']
+2023-12-25 22:28:10,894 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'subjects']
+2023-12-25 22:28:10,898 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'subjects', 'delete']
+2023-12-25 22:28:10,904 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'subjects', 'undelete']
+2023-12-25 22:28:10,907 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'subjects', 'operations']
+2023-12-25 22:28:10,911 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'subjects', 'operations', 'describe']
+2023-12-25 22:28:10,914 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers']
+2023-12-25 22:28:10,922 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'update_oidc']
+2023-12-25 22:28:10,926 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'keys']
+2023-12-25 22:28:10,930 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'keys', 'delete']
+2023-12-25 22:28:10,938 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'keys', 'undelete']
+2023-12-25 22:28:10,947 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'keys', 'create']
+2023-12-25 22:28:10,955 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'keys', 'describe']
+2023-12-25 22:28:10,964 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'keys', 'list']
+2023-12-25 22:28:10,968 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'keys', 'operations']
+2023-12-25 22:28:10,971 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'keys', 'operations', 'describe']
+2023-12-25 22:28:10,981 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'list']
+2023-12-25 22:28:11,003 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'create_saml']
+2023-12-25 22:28:11,030 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'update_saml']
+2023-12-25 22:28:11,035 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'operations']
+2023-12-25 22:28:11,039 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'operations', 'describe']
+2023-12-25 22:28:11,046 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'describe']
+2023-12-25 22:28:11,054 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'delete']
+2023-12-25 22:28:11,062 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'undelete']
+2023-12-25 22:28:11,073 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'providers', 'create_oidc']
+2023-12-25 22:28:11,078 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'workforce-pools', 'create_login_config']
+2023-12-25 22:28:11,078 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'policies']
+2023-12-25 22:28:11,079 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'policies', 'delete']
+2023-12-25 22:28:11,086 DEBUG    root            No implementation for release track [GA] for element: [/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/iam/policies/lint_condition.yaml]
+2023-12-25 22:28:11,087 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'policies', 'create']
+2023-12-25 22:28:11,088 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'policies', 'update']
+2023-12-25 22:28:11,088 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'policies', 'list']
+2023-12-25 22:28:11,089 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'policies', 'get']
+2023-12-25 22:28:11,089 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'list_grantable_roles']
+2023-12-25 22:28:11,090 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'list_testable_permissions']
+2023-12-25 22:28:11,091 DEBUG    root            Loaded Command Group: ['gcloud', 'ai']
+2023-12-25 22:28:11,092 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'models']
+2023-12-25 22:28:11,103 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'models', 'delete']
+2023-12-25 22:28:11,221 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'models', 'copy']
+2023-12-25 22:28:11,223 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'models', 'upload']
+2023-12-25 22:28:11,225 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'models', 'list_version']
+2023-12-25 22:28:11,230 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'models', 'list']
+2023-12-25 22:28:11,231 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'models', 'delete_version']
+2023-12-25 22:28:11,235 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'models', 'describe']
+2023-12-25 22:28:11,240 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'indexes']
+2023-12-25 22:28:11,243 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'indexes', 'delete']
+2023-12-25 22:28:11,247 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'indexes', 'remove_datapoints']
+2023-12-25 22:28:11,252 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'indexes', 'create']
+2023-12-25 22:28:11,254 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'indexes', 'update']
+2023-12-25 22:28:11,259 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'indexes', 'upsert_datapoints']
+2023-12-25 22:28:11,263 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'indexes', 'list']
+2023-12-25 22:28:11,264 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'indexes', 'describe']
+2023-12-25 22:28:11,301 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'endpoints']
+2023-12-25 22:28:11,304 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'endpoints', 'explain']
+2023-12-25 22:28:11,309 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'endpoints', 'list']
+2023-12-25 22:28:11,310 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'endpoints', 'undeploy_model']
+2023-12-25 22:28:11,314 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'endpoints', 'describe']
+2023-12-25 22:28:11,319 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'endpoints', 'delete']
+2023-12-25 22:28:11,324 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'endpoints', 'create']
+2023-12-25 22:28:11,325 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'endpoints', 'deploy_model']
+2023-12-25 22:28:11,378 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'endpoints', 'raw_predict']
+2023-12-25 22:28:11,383 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'endpoints', 'update']
+2023-12-25 22:28:11,388 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'endpoints', 'predict']
+2023-12-25 22:28:11,392 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'hp_tuning_jobs']
+2023-12-25 22:28:11,394 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'hp-tuning-jobs', 'cancel']
+2023-12-25 22:28:11,398 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'hp-tuning-jobs', 'create']
+2023-12-25 22:28:11,406 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'hp-tuning-jobs', 'stream_logs']
+2023-12-25 22:28:11,410 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'hp-tuning-jobs', 'list']
+2023-12-25 22:28:11,411 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'hp-tuning-jobs', 'describe']
+2023-12-25 22:28:11,415 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'operations']
+2023-12-25 22:28:11,416 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'operations', 'describe']
+2023-12-25 22:28:11,420 DEBUG    root            No implementation for release track [GA] for element: [/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/ai/tensorboard_runs]
+2023-12-25 22:28:11,420 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'index_endpoints']
+2023-12-25 22:28:11,431 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'index-endpoints', 'list']
+2023-12-25 22:28:11,433 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'index-endpoints', 'deploy_index']
+2023-12-25 22:28:11,437 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'index-endpoints', 'describe']
+2023-12-25 22:28:11,457 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'index-endpoints', 'delete']
+2023-12-25 22:28:11,480 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'index-endpoints', 'create']
+2023-12-25 22:28:11,500 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'index-endpoints', 'mutate_deployed_index']
+2023-12-25 22:28:11,510 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'index-endpoints', 'update']
+2023-12-25 22:28:11,527 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'index-endpoints', 'undeploy_index']
+2023-12-25 22:28:11,533 DEBUG    root            No implementation for release track [GA] for element: [/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/ai/tensorboard_experiments]
+2023-12-25 22:28:11,534 DEBUG    root            No implementation for release track [GA] for element: [/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/ai/tensorboard_time_series]
+2023-12-25 22:28:11,534 DEBUG    root            No implementation for release track [GA] for element: [/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/ai/deployment_resource_pools]
+2023-12-25 22:28:11,535 DEBUG    root            No implementation for release track [GA] for element: [/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/ai/persistent_resources]
+2023-12-25 22:28:11,535 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'tensorboards']
+2023-12-25 22:28:11,540 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'tensorboards', 'delete']
+2023-12-25 22:28:11,545 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'tensorboards', 'create']
+2023-12-25 22:28:11,550 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'tensorboards', 'update']
+2023-12-25 22:28:11,555 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'tensorboards', 'list']
+2023-12-25 22:28:11,556 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'tensorboards', 'describe']
+2023-12-25 22:28:11,560 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'custom_jobs']
+2023-12-25 22:28:11,563 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'custom-jobs', 'local_run']
+2023-12-25 22:28:11,567 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'custom-jobs', 'cancel']
+2023-12-25 22:28:11,571 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'custom-jobs', 'create']
+2023-12-25 22:28:11,576 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'custom-jobs', 'stream_logs']
+2023-12-25 22:28:11,581 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'custom-jobs', 'list']
+2023-12-25 22:28:11,582 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'custom-jobs', 'describe']
+2023-12-25 22:28:11,586 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'model_monitoring_jobs']
+2023-12-25 22:28:11,589 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'model-monitoring-jobs', 'delete']
+2023-12-25 22:28:11,593 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'model-monitoring-jobs', 'resume']
+2023-12-25 22:28:11,598 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'model-monitoring-jobs', 'create']
+2023-12-25 22:28:11,603 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'model-monitoring-jobs', 'update']
+2023-12-25 22:28:11,608 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'model-monitoring-jobs', 'describe']
+2023-12-25 22:28:11,612 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'model-monitoring-jobs', 'list']
+2023-12-25 22:28:11,613 DEBUG    root            Loaded Command Group: ['gcloud', 'ai', 'model-monitoring-jobs', 'pause']
+2023-12-25 22:28:11,617 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware']
+2023-12-25 22:28:11,618 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'dns_bind_permission']
+2023-12-25 22:28:11,623 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'dns-bind-permission', 'grant']
+2023-12-25 22:28:11,640 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'dns-bind-permission', 'revoke']
+2023-12-25 22:28:11,653 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'dns-bind-permission', 'describe']
+2023-12-25 22:28:11,666 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network_policies']
+2023-12-25 22:28:11,669 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-policies', 'delete']
+2023-12-25 22:28:11,694 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-policies', 'list']
+2023-12-25 22:28:11,700 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-policies', 'create']
+2023-12-25 22:28:11,706 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-policies', 'update']
+2023-12-25 22:28:11,713 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-policies', 'external_access_rules']
+2023-12-25 22:28:11,714 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-policies', 'external-access-rules', 'delete']
+2023-12-25 22:28:11,721 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-policies', 'external-access-rules', 'create']
+2023-12-25 22:28:11,728 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-policies', 'external-access-rules', 'update']
+2023-12-25 22:28:11,735 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-policies', 'external-access-rules', 'list']
+2023-12-25 22:28:11,741 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-policies', 'external-access-rules', 'describe']
+2023-12-25 22:28:11,748 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-policies', 'describe']
+2023-12-25 22:28:11,754 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'node_types']
+2023-12-25 22:28:11,756 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'node-types', 'list']
+2023-12-25 22:28:11,770 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'node-types', 'describe']
+2023-12-25 22:28:11,784 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'networks']
+2023-12-25 22:28:11,785 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'networks', 'delete']
+2023-12-25 22:28:11,792 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'networks', 'create']
+2023-12-25 22:28:11,800 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'networks', 'update']
+2023-12-25 22:28:11,807 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'networks', 'list']
+2023-12-25 22:28:11,813 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'networks', 'describe']
+2023-12-25 22:28:11,819 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'operations']
+2023-12-25 22:28:11,820 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'operations', 'list']
+2023-12-25 22:28:11,834 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'operations', 'describe']
+2023-12-25 22:28:11,847 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private_clouds']
+2023-12-25 22:28:11,849 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'management_dns_zone_bindings']
+2023-12-25 22:28:11,851 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'management-dns-zone-bindings', 'delete']
+2023-12-25 22:28:11,866 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'management-dns-zone-bindings', 'create']
+2023-12-25 22:28:11,882 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'management-dns-zone-bindings', 'update']
+2023-12-25 22:28:11,898 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'management-dns-zone-bindings', 'list']
+2023-12-25 22:28:11,912 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'management-dns-zone-bindings', 'repair']
+2023-12-25 22:28:11,928 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'management-dns-zone-bindings', 'describe']
+2023-12-25 22:28:11,943 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'logging_servers']
+2023-12-25 22:28:11,944 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'logging-servers', 'delete']
+2023-12-25 22:28:11,960 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'logging-servers', 'create']
+2023-12-25 22:28:11,976 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'logging-servers', 'update']
+2023-12-25 22:28:11,992 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'logging-servers', 'list']
+2023-12-25 22:28:12,006 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'logging-servers', 'describe']
+2023-12-25 22:28:12,022 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'hcx']
+2023-12-25 22:28:12,022 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'hcx', 'activationkeys']
+2023-12-25 22:28:12,023 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'hcx', 'activationkeys', 'list']
+2023-12-25 22:28:12,038 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'hcx', 'activationkeys', 'create']
+2023-12-25 22:28:12,055 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'hcx', 'activationkeys', 'describe']
+2023-12-25 22:28:12,070 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'external_addresses']
+2023-12-25 22:28:12,109 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'external-addresses', 'delete']
+2023-12-25 22:28:12,125 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'external-addresses', 'create']
+2023-12-25 22:28:12,140 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'external-addresses', 'update']
+2023-12-25 22:28:12,156 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'external-addresses', 'list']
+2023-12-25 22:28:12,170 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'external-addresses', 'describe']
+2023-12-25 22:28:12,186 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'identity_sources']
+2023-12-25 22:28:12,187 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'identity-sources', 'delete']
+2023-12-25 22:28:12,203 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'identity-sources', 'create']
+2023-12-25 22:28:12,219 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'identity-sources', 'update']
+2023-12-25 22:28:12,234 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'identity-sources', 'list']
+2023-12-25 22:28:12,249 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'identity-sources', 'describe']
+2023-12-25 22:28:12,264 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'vcenter']
+2023-12-25 22:28:12,265 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'vcenter', 'credentials']
+2023-12-25 22:28:12,267 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'vcenter', 'credentials', 'reset']
+2023-12-25 22:28:12,348 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'vcenter', 'credentials', 'describe']
+2023-12-25 22:28:12,371 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'list']
+2023-12-25 22:28:12,384 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'dns_forwarding']
+2023-12-25 22:28:12,386 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'dns-forwarding', 'update']
+2023-12-25 22:28:12,401 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'dns-forwarding', 'describe']
+2023-12-25 22:28:12,417 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'describe']
+2023-12-25 22:28:12,433 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'delete']
+2023-12-25 22:28:12,449 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'clusters']
+2023-12-25 22:28:12,450 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'clusters', 'delete']
+2023-12-25 22:28:12,468 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'clusters', 'create']
+2023-12-25 22:28:12,486 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'clusters', 'update']
+2023-12-25 22:28:12,503 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'clusters', 'describe']
+2023-12-25 22:28:12,520 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'clusters', 'list']
+2023-12-25 22:28:12,536 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'clusters', 'nodes']
+2023-12-25 22:28:12,538 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'clusters', 'nodes', 'list']
+2023-12-25 22:28:12,555 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'clusters', 'nodes', 'describe']
+2023-12-25 22:28:12,571 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'undelete']
+2023-12-25 22:28:12,586 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'create']
+2023-12-25 22:28:12,614 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'update']
+2023-12-25 22:28:12,628 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'subnets']
+2023-12-25 22:28:12,629 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'subnets', 'update']
+2023-12-25 22:28:12,645 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'subnets', 'list']
+2023-12-25 22:28:12,659 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'subnets', 'describe']
+2023-12-25 22:28:12,674 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'nsx']
+2023-12-25 22:28:12,675 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'nsx', 'credentials']
+2023-12-25 22:28:12,676 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'nsx', 'credentials', 'reset']
+2023-12-25 22:28:12,691 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-clouds', 'nsx', 'credentials', 'describe']
+2023-12-25 22:28:12,705 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network_peerings']
+2023-12-25 22:28:12,707 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-peerings', 'delete']
+2023-12-25 22:28:12,713 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-peerings', 'routes']
+2023-12-25 22:28:12,714 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-peerings', 'routes', 'list']
+2023-12-25 22:28:12,721 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-peerings', 'create']
+2023-12-25 22:28:12,728 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-peerings', 'update']
+2023-12-25 22:28:12,734 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-peerings', 'list']
+2023-12-25 22:28:12,740 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'network-peerings', 'describe']
+2023-12-25 22:28:12,746 DEBUG    root            No implementation for release track [GA] for element: [/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/vmware/sddc]
+2023-12-25 22:28:12,746 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private_connections']
+2023-12-25 22:28:12,747 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-connections', 'delete']
+2023-12-25 22:28:12,761 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-connections', 'routes']
+2023-12-25 22:28:12,762 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-connections', 'routes', 'list']
+2023-12-25 22:28:12,777 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-connections', 'create']
+2023-12-25 22:28:12,791 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-connections', 'update']
+2023-12-25 22:28:12,806 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-connections', 'list']
+2023-12-25 22:28:12,831 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'private-connections', 'describe']
+2023-12-25 22:28:12,845 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'locations']
+2023-12-25 22:28:12,846 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware', 'locations', 'list']
+2023-12-25 22:28:12,859 DEBUG    root            Loaded Command Group: ['gcloud', 'scc']
+2023-12-25 22:28:12,860 DEBUG    root            No implementation for release track [GA] for element: [/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/scc/securityposture_operations]
+2023-12-25 22:28:12,861 DEBUG    root            Loaded Command Group: ['gcloud', 'scc', 'bqexports']
+2023-12-25 22:28:12,864 DEBUG    root            Problem loading gcloud.scc.bqexports.delete: 'type' object is not subscriptable.
+Traceback (most recent call last):
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/command_loading.py", line 452, in _GetModuleFromPath
+    return pkg_resources.GetModuleFromPath(name_to_give, impl_file)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/core/util/pkg_resources.py", line 164, in GetModuleFromPath
+    return GetModuleFromPathLegacy(name_to_give, module_path)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/core/util/pkg_resources.py", line 111, in GetModuleFromPathLegacy
+    return imp.load_module(name_to_give, f, file_path, items)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/scc/bqexports/delete.py", line 25, in <module>
+    from googlecloudsdk.command_lib.scc import util as scc_util
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/command_lib/scc/util.py", line 137, in <module>
+    args, resource_name="", deprecated_args: list[str] = None
+TypeError: 'type' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 987, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/meta/list_commands.py", line 175, in Run
+    return walker_util.CommandTreeGenerator(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/walker_util.py", line 456, in __init__
+    super(CommandTreeGenerator, self).__init__(cli, **kwargs)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/walker.py", line 69, in __init__
+    self._num_nodes += 1.0 + root.LoadAllSubElements(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 632, in LoadAllSubElements
+    total += element.LoadAllSubElements(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 632, in LoadAllSubElements
+    total += element.LoadAllSubElements(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 623, in LoadAllSubElements
+    element = self.LoadSubElement(name)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 672, in LoadSubElement
+    element = Command(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 769, in __init__
+    common_type = command_loading.LoadCommonType(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/command_loading.py", line 162, in LoadCommonType
+    implementations = _GetAllImplementations(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/command_loading.py", line 230, in _GetAllImplementations
+    module = _GetModuleFromPath(impl_file, path, construction_id)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/command_loading.py", line 457, in _GetModuleFromPath
+    exceptions.reraise(CommandLoadFailure('.'.join(path), e))
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/core/exceptions.py", line 146, in reraise
+    six.reraise(type(exc_value), exc_value, tb)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/third_party/six/__init__.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/command_loading.py", line 452, in _GetModuleFromPath
+    return pkg_resources.GetModuleFromPath(name_to_give, impl_file)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/core/util/pkg_resources.py", line 164, in GetModuleFromPath
+    return GetModuleFromPathLegacy(name_to_give, module_path)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/core/util/pkg_resources.py", line 111, in GetModuleFromPathLegacy
+    return imp.load_module(name_to_give, f, file_path, items)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/scc/bqexports/delete.py", line 25, in <module>
+    from googlecloudsdk.command_lib.scc import util as scc_util
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/command_lib/scc/util.py", line 137, in <module>
+    args, resource_name="", deprecated_args: list[str] = None
+googlecloudsdk.calliope.command_loading.CommandLoadFailure: Problem loading gcloud.scc.bqexports.delete: 'type' object is not subscriptable.
+2023-12-25 22:28:12,886 ERROR    ___FILE_ONLY___ BEGIN CRASH STACKTRACE
+Traceback (most recent call last):
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/command_loading.py", line 452, in _GetModuleFromPath
+    return pkg_resources.GetModuleFromPath(name_to_give, impl_file)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/core/util/pkg_resources.py", line 164, in GetModuleFromPath
+    return GetModuleFromPathLegacy(name_to_give, module_path)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/core/util/pkg_resources.py", line 111, in GetModuleFromPathLegacy
+    return imp.load_module(name_to_give, f, file_path, items)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/scc/bqexports/delete.py", line 25, in <module>
+    from googlecloudsdk.command_lib.scc import util as scc_util
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/command_lib/scc/util.py", line 137, in <module>
+    args, resource_name="", deprecated_args: list[str] = None
+TypeError: 'type' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/command_lib/crash_handling.py", line 199, in Wrapper
+    target_function(*args, **kwargs)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/gcloud_main.py", line 186, in main
+    gcloud_cli.Execute()
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 1013, in Execute
+    self._HandleAllErrors(exc, command_path_string, specified_arg_names)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 1050, in _HandleAllErrors
+    exceptions.HandleError(exc, command_path_string, self.__known_error_handler)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/exceptions.py", line 557, in HandleError
+    core_exceptions.reraise(exc)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/core/exceptions.py", line 146, in reraise
+    six.reraise(type(exc_value), exc_value, tb)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/third_party/six/__init__.py", line 719, in reraise
+    raise value
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 987, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/meta/list_commands.py", line 175, in Run
+    return walker_util.CommandTreeGenerator(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/walker_util.py", line 456, in __init__
+    super(CommandTreeGenerator, self).__init__(cli, **kwargs)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/walker.py", line 69, in __init__
+    self._num_nodes += 1.0 + root.LoadAllSubElements(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 632, in LoadAllSubElements
+    total += element.LoadAllSubElements(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 632, in LoadAllSubElements
+    total += element.LoadAllSubElements(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 623, in LoadAllSubElements
+    element = self.LoadSubElement(name)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 672, in LoadSubElement
+    element = Command(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 769, in __init__
+    common_type = command_loading.LoadCommonType(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/command_loading.py", line 162, in LoadCommonType
+    implementations = _GetAllImplementations(
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/command_loading.py", line 230, in _GetAllImplementations
+    module = _GetModuleFromPath(impl_file, path, construction_id)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/command_loading.py", line 457, in _GetModuleFromPath
+    exceptions.reraise(CommandLoadFailure('.'.join(path), e))
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/core/exceptions.py", line 146, in reraise
+    six.reraise(type(exc_value), exc_value, tb)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/third_party/six/__init__.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/command_loading.py", line 452, in _GetModuleFromPath
+    return pkg_resources.GetModuleFromPath(name_to_give, impl_file)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/core/util/pkg_resources.py", line 164, in GetModuleFromPath
+    return GetModuleFromPathLegacy(name_to_give, module_path)
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/core/util/pkg_resources.py", line 111, in GetModuleFromPathLegacy
+    return imp.load_module(name_to_give, f, file_path, items)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/surface/scc/bqexports/delete.py", line 25, in <module>
+    from googlecloudsdk.command_lib.scc import util as scc_util
+  File "/Users/prathyureddy/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/command_lib/scc/util.py", line 137, in <module>
+    args, resource_name="", deprecated_args: list[str] = None
+googlecloudsdk.calliope.command_loading.CommandLoadFailure: Problem loading gcloud.scc.bqexports.delete: 'type' object is not subscriptable.
+2023-12-25 22:28:12,899 ERROR    root            gcloud crashed (CommandLoadFailure): Problem loading gcloud.scc.bqexports.delete: 'type' object is not subscriptable.
+2023-12-25 22:28:12,899 INFO     ___FILE_ONLY___ 
+If you would like to report this issue, please run the following command:
+
+2023-12-25 22:28:12,899 INFO     ___FILE_ONLY___   gcloud feedback
+
+2023-12-25 22:28:12,899 INFO     ___FILE_ONLY___ 
+To check gcloud for common problems, please run the following command:
+
+2023-12-25 22:28:12,899 INFO     ___FILE_ONLY___   gcloud info --run-diagnostics
+
