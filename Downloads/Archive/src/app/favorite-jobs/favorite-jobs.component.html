@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Favorite Jobs</h2>
+  <div class="list-group">
+    <div *ngIf="favoriteJobs.length > 0; else noFavorites">
+      <app-compact-job-view *ngFor="let job of favoriteJobs" [job]="job" />
+    </div>
+    <ng-template #noFavorites>
+      <div class="m-4 alert alert-info" role="alert">
+        There are no favorite jobs selected.
+      </div>
+    </ng-template>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="container">
+  <h2 class="mt-4">Job Listings</h2>
+  <div class="list-group">
+    <div *ngIf="jobs.length > 0; else noJobs">
+      <app-compact-job-view *ngFor="let job of jobs" [job]="job" [showFavoriteIcon]="true"
+        (favoriteToggled)="toggleFavorite($event)" />
+    </div>
+    <ng-template #noJobs>
+      <div class="m-4 alert alert-info" role="alert">
+        There are no jobs.
+      </div>
+    </ng-template>
+  </div>
+</div>

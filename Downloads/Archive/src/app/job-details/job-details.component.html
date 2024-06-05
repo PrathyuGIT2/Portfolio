@@ -1,0 +1,28 @@
+<div *ngIf="job">
+    <div class="container mt-4">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a [routerLink]="['/']"> <i class="bi bi-house-door-fill"></i></a></li>
+              <li class="breadcrumb-item"><a [routerLink]="['/jobs']">Jobs</a></li>
+              <li class="breadcrumb-item active" aria-current="page">{{ job.title }}</li>
+            </ol>
+          </nav>
+        <div class="card p-4">
+          <div class="d-flex align-items-center mb-4">
+            <img [src]="job.companyLogo" alt="{{ job.companyName }}" class="img-thumbnail" style="width: 90px; height: 90px; margin-right: 20px;">
+            <div>
+              <h2>{{ job.companyName }} - {{ job.title }}</h2>
+              <div>
+                <span class="badge rounded-pill text-bg-secondary mx-1" *ngFor="let type of job.types">{{ type }}</span>
+                <span class="badge rounded-pill text-bg-secondary mx-1" *ngFor="let industry of job.industries">{{ industry }}</span>
+              </div>
+            </div>
+          </div>
+          <p><strong>Publish date:</strong> {{ job.publishDate | date }}</p>
+          <p><strong>Location:</strong> {{ job.location }}</p>
+          <p><strong>Reference:</strong> {{ job.reference }}</p>
+          <h4>Description:</h4>
+          <div [innerHTML]="job.description"></div>
+        </div>
+      </div>
+</div>
