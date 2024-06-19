@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FileZilla3 version="3.58.0" platform="mac">
-	<InsecureHosts>
-		<Host Port="21">10.151.3.69</Host>
-	</InsecureHosts>
-</FileZilla3>
