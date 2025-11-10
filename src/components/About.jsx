@@ -1,61 +1,24 @@
 import React from "react";
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-
-const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
-    <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
-    >
-      <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
-      >
-        <img
-          src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
-        />
-
-        <h3 className='text-white text-[20px] font-bold text-center'>
-          {title}
-        </h3>
-      </div>
-    </motion.div>
-  </Tilt>
-);
 
 const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className="section-title">Introduction</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >Experienced Frontend Developer with expertise in crafting dynamic and responsive web applications. 
-       Proficient in both Angular and React frameworks, adept at creating seamless user interfaces and optimizing user experiences.
-       Excited to bring my skills to new and creative projects.
+        className='mt-6 heading-font text-softgray text-base lg:text-lg leading-relaxed text-shadow-strong'
+      >Passionate and results-driven Senior Frontend Developer with around 6 years of experience in designing and building scalable, high-performance, and accessible web applications using React.js, Angular, TypeScript, and Node.js. Skilled in architecting responsive SPAs, enhancing rendering efficiency, and collaborating with cross-functional teams to deliver enterprise-grade digital solutions. Proficient in micro frontends, CI/CD automation, and cloud-native deployments, with a strong focus on transforming UX concepts into seamless, interactive user experiences.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
+      {/* Service cards removed per request */}
     </>
   );
 };

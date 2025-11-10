@@ -5,12 +5,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
-        "black-100": "#100d25",
-        "black-200": "#090325",
-        "white-100": "#f3f3f3",
+  // Theme palette refresh (Nov 2025)
+  primary: "#FFC1CC", // Light Pink (primary brand color)
+  background: "#FFFFFF", // Global page background
+  secondary: "#FFC1CC", // Use Light Pink for headings and brand accents
+  lavender: "#C3AED6", // Lavender secondary accent
+        blush: "#FFD1DC", // Soft blush accent
+        softgray: "#A9A9A9", // Neutral text/support
+        tertiary: "#FFE4E1", // Legacy soft panel background (kept for subtle sections)
+        // Retain legacy tokens (could deprecate later) mapped to closest new tones
+        "black-100": "#FFC1CC",
+        "black-200": "#FFD1DC",
+        "white-100": "#FFFFFF",
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",

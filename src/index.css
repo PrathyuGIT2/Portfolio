@@ -1,16 +1,272 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/*
+  Modern Bold Typography System
+  - Display/Logo: Abril Fatface (ultra-stylish display font)
+  - Headings: Montserrat (bold, modern, highly readable)
+  - Body/UI: DM Sans (clean, contemporary, excellent readability)
+*/
+:root{
+  --font-logo: 'Abril Fatface', cursive;
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-body);
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: light;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.01em;
+  font-feature-settings: "ss01" on, "ss02" on;
+}
+
+/* Modern Bold Typography Classes */
+.logo-font {
+  font-family: var(--font-logo);
+  font-weight: 400; /* Abril Fatface works best at regular weight */
+  letter-spacing: 0.02em;
+}
+
+.heading-font {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Text outline effect */
+.text-outlined {
+  /* Softer outline using light pink + lavender glow */
+  text-shadow:
+    -1px -1px 0 #FFC1CC,
+    1px -1px 0 #FFC1CC,
+    -1px 1px 0 #FFC1CC,
+    1px 1px 0 #FFC1CC,
+    0 0 10px rgba(195,174,214,0.45);
+}
+
+/* Logo text effect */
+.logo-text-effect {
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.8));
+  letter-spacing: -0.5px;
+}
+
+/* Enhanced text effects */
+.text-glow {
+  text-shadow: 0 0 18px rgba(255,193,204,0.55), 0 0 36px rgba(195,174,214,0.35);
+}
+
+.text-shadow-strong {
+  text-shadow: 2px 4px 14px rgba(255,193,204,0.35), 0 2px 4px rgba(0,0,0,0.08);
+}
+
+/* ================= Feminine UI Utility Additions ================ */
+.frosted-panel {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  border: 1px solid rgba(255,193,204,0.4);
+  box-shadow: 0 12px 40px -10px rgba(255,193,204,0.35);
+  border-radius: 28px;
+}
+
+.soft-card {
+  background: linear-gradient(140deg,#FFFFFF 0%, #FFE4E1 55%, #FFD1DC 100%);
+  border: 1px solid rgba(255,193,204,0.35);
+  box-shadow: 0 8px 28px -8px rgba(195,174,214,0.35);
+  border-radius: 22px;
+  transition: transform .35s ease, box-shadow .35s ease;
+}
+.soft-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px -10px rgba(195,174,214,0.45);
+}
+
+.btn-pastel {
+  background: linear-gradient(90deg,#FFC1CC 0%, #FFD1DC 50%, #C3AED6 100%);
+  color: #5E4B6F;
+  font-weight: 600;
+  padding: 0.9rem 1.8rem;
+  border-radius: 999px;
+  box-shadow: 0 6px 18px -4px rgba(255,193,204,0.55);
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow .35s ease, transform .35s ease;
+}
+.btn-pastel:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 26px -6px rgba(195,174,214,0.55);
+}
+.btn-pastel:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 14px -4px rgba(195,174,214,0.55);
+}
+
+.link-underline {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg,#FFC1CC,#C3AED6);
+  border-radius: 3px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .35s ease;
+}
+.link-underline:hover::after, .link-underline:focus::after {
+  transform: scaleX(1);
+}
+
+.section-title {
+  font-family: var(--font-logo);
+  /* Reduced global heading size by 2 additional steps: 2.2→1.8rem, 3.8→3.2rem */
+  font-size: clamp(1.8rem,4.5vw,3.2rem);
+  line-height: 1.03;
+  /* Slightly deeper rose/lavender gradient to improve readability */
+  background: linear-gradient(85deg,#E26D9F 0%, #FF9FBF 45%, #B49BD6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.02em;
+  position: relative;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.12), 0 1px 0 rgba(255,255,255,0.3);
+}
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  bottom: -14px;
+  width: 120px;
+  height: 10px;
+  background: linear-gradient(90deg,#FFC1CC,#C3AED6);
+  filter: blur(6px);
+  opacity: .55;
+  border-radius: 20px;
+}
+
+/* Unified soft background panel wrapper for all major sections */
+.section-bg-pane {
+  position: relative;
+  background: linear-gradient(140deg,#FFFFFF 0%, #FFE4E1 55%, #FFD1DC 100%);
+  border: 1px solid rgba(255,193,204,0.35);
+  border-radius: 30px;
+  padding: clamp(1.75rem,3vw,3rem) clamp(1.5rem,2.5vw,2.75rem);
+  box-shadow: 0 18px 48px -14px rgba(195,174,214,0.40);
+  overflow: hidden;
+}
+.section-bg-pane::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 30% 25%, rgba(255,193,204,0.45), rgba(255,209,220,0.35), rgba(195,174,214,0.25) 65%, rgba(255,255,255,0) 75%);
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+.input-pastel {
+  background: rgba(255,255,255,0.75);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,193,204,0.55);
+  border-radius: 18px;
+  padding: 0.9rem 1.1rem;
+  color: #5E4B6F;
+  font-weight: 500;
+  transition: border-color .3s ease, box-shadow .3s ease;
+}
+.input-pastel::placeholder { color: #A9A9A9; }
+.input-pastel:focus {
+  outline: none;
+  border-color: #C3AED6;
+  box-shadow: 0 0 0 4px rgba(195,174,214,0.35);
+}
+
+.radial-hero-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 35% 35%, rgba(255,193,204,0.65), rgba(255,209,220,0.55), rgba(195,174,214,0.35) 70%, rgba(255,255,255,0) 75%);
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+.pastel-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  font-size: 0.75rem;
+  letter-spacing: .5px;
+  font-weight: 600;
+  background: linear-gradient(120deg,#FFFFFF,#FFE4E1,#FFD1DC);
+  border: 1px solid rgba(255,193,204,0.55);
+  border-radius: 999px;
+  color: #5E4B6F;
+  box-shadow: 0 4px 14px -4px rgba(255,193,204,0.45);
+}
+
+.icon-pastel {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(140deg,#FFFFFF 0%, #FFE4E1 60%, #FFD1DC 100%);
+  border: 1px solid rgba(255,193,204,0.55);
+  border-radius: 999px;
+  box-shadow: 0 8px 22px -8px rgba(195,174,214,0.55);
+}
+
+
+.body-font {
+  font-family: var(--font-body);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* Text emphasis utilities */
+.text-bold {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+/* Utility class to apply the display font to components */
+.heading-font {
+  font-family: var(--font-heading);
+}
+
+/* Small text utilities for improved readability */
+.lead {
+  line-height: 1.75;
+  font-size: 1.025rem;
+}
+
+/* Subtle text-shadow for large display headings to increase legibility on gradients */
+.text-shadow {
+  text-shadow: 0 4px 18px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.06);
+}
+
+/* Make semantic headings use the display font by default for a stylish look */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.01em;
+  line-height: 1.05;
 }
 
 .hash-span {
@@ -20,98 +276,198 @@
 }
 
 .black-gradient {
-  background: #000000; /* fallback for old browsers */
+  background: #ff69b4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #434343,
-    #000000
+    #ffc0cb,
+    #ff69b4
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #434343,
-    #000000
+    #ffc0cb,
+    #ff69b4
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: #ff69b4;
+  background: linear-gradient(-90deg, #ff69b4 0%, rgba(255, 235, 244, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
-    rgba(60, 51, 80, 0) 100%
+    #ff69b4 0%,
+    rgba(255, 235, 244, 0) 100%
   );
 }
 
 .green-pink-gradient {
-  background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: "#ffc0cb";
+  background: linear-gradient(90.13deg, #ffc0cb 1.9%, #ff69b4 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #ffc0cb 1.9%, #ff69b4 97.5%);
 }
 
 .orange-text-gradient {
-  background: #f12711; /* fallback for old browsers */
+  background: #FF1493; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #f12711,
-    #f5af19
+    #FF1493,
+    #FF69B4
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #f12711,
-    #f5af19
+    #FF1493,
+    #FF69B4
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .green-text-gradient {
-  background: #11998e; /* fallback for old browsers */
+  background: #FFB6C1; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #11998e,
-    #38ef7d
+    #FFB6C1,
+    #FFC0CB
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #11998e,
-    #38ef7d
+    #FFB6C1,
+    #FFC0CB
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .blue-text-gradient {
-  /* background: -webkit-linear-gradient(#eee, #333); */
-  background: #56ccf2; /* fallback for old browsers */
+  background: #DB7093; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #2f80ed,
-    #56ccf2
+    #DB7093,
+    #FFB6C1
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #2f80ed,
-    #56ccf2
+    #DB7093,
+    #FFB6C1
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+.pink-bg-gradient {
+  /* Updated soft pastel gradient using new palette: light pink → blush → lavender */
+  background-image: linear-gradient(
+    90deg,
+    rgba(255,193,204,0.40) 0%,
+    rgba(255,209,220,0.35) 40%,
+    rgba(195,174,214,0.35) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .pink-text-gradient {
-  background: #ec008c; /* fallback for old browsers */
+  /* Slightly darker for legibility: rose → mauve */
+  background: #FF9FBF; /* fallback */
   background: -webkit-linear-gradient(
     to top,
-    #ec008c,
-    #fc6767
-  ); /* Chrome 10-25, Safari 5.1-6 */
+    #FF9FBF,
+    #B49BD6
+  );
   background: linear-gradient(
     to top,
-    #ec008c,
-    #fc6767
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    #FF9FBF,
+    #B49BD6
+  );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* Floating pastel decoration blobs (global background sprinkles) */
+.decorative-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(30px);
+  opacity: .35;
+  animation: blobFloat var(--dur,18s) ease-in-out infinite;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+.blob-pink {
+  background: radial-gradient(circle, rgba(255,193,204,0.60), rgba(255,193,204,0) 60%);
+}
+.blob-lavender {
+  background: radial-gradient(circle, rgba(195,174,214,0.55), rgba(195,174,214,0) 60%);
+}
+.blob-blush {
+  background: radial-gradient(circle, rgba(255,209,220,0.50), rgba(255,209,220,0) 60%);
+}
+@keyframes blobFloat {
+  0% { transform: translate3d(0,0,0) scale(1); }
+  50% { transform: translate3d(20px,-40px,0) scale(1.05); }
+  100% { transform: translate3d(0,0,0) scale(1); }
+}
+
+/* Tiny twinkling sparkles for extra ambience */
+.sparkle {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.0) 70%);
+  box-shadow:
+    0 0 8px rgba(255,209,220,0.65),
+    0 0 14px rgba(195,174,214,0.45);
+  opacity: .55;
+  animation: twinkle var(--dur,3.6s) ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes twinkle {
+  0%, 100% { transform: scale(0.8); opacity: .35; }
+  50% { transform: scale(1.25); opacity: .85; }
+}
+
+/* Playful dancing animation for binary digits */
+.binary-digit {
+  display: inline-block;
+  animation: binaryDance var(--dur, 1.6s) ease-in-out infinite both;
+  transform-origin: 50% 50%;
+  will-change: transform, opacity;
+}
+
+@keyframes binaryDance {
+  0%, 100% { transform: translateY(0) scale(1); opacity: 0.9; }
+  20% { transform: translateY(-2px) rotate(-2deg); }
+  50% { transform: translateY(2px) rotate(2deg) scale(1.05); opacity: 1; }
+  80% { transform: translateY(-1px) rotate(-1deg) scale(0.98); }
+}
+
+/* Matrix-style rain effect for binary digits */
+.binary-rain-digit {
+  display: inline-block;
+  animation: rainFall var(--rainDur, 3.5s) linear infinite both;
+  will-change: transform, opacity;
+}
+
+@keyframes rainFall {
+  0% { transform: translateY(-120%); opacity: 0; }
+  10% { opacity: 0.9; }
+  90% { opacity: 0.9; }
+  100% { transform: translateY(120%); opacity: 0; }
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .decorative-blob, .sparkle, .binary-digit, .binary-rain-digit { animation: none !important; }
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #A9A9A9; /* default neutral; component overrides apply brand accents */
 }
 
 /* canvas- styles */
