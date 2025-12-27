@@ -29,9 +29,11 @@ const ExperienceCard = ({ experience }) => {
       {experience.date && (
         <p className='mt-3 text-softgray text-sm heading-font'>{experience.date}</p>
       )}
-      <p className='mt-4 text-softgray text-base leading-relaxed heading-font'>
-        {experience.desc}
-      </p>
+      {experience.desc && (
+        <p className='mt-4 text-softgray text-base leading-relaxed heading-font'>
+          {experience.desc}
+        </p>
+      )}
     </div>
   );
 };

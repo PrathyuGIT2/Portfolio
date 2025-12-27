@@ -133,27 +133,21 @@ import {
       company_name: "Citibank",
       icon: citi,
         iconBg: "#FFE4E1",
-      date: "January 2024 - Present",
-      desc: 
-        "Developing modular, high-performance Angular SPAs with optimized rendering and lazy loading. Integrated RESTful, Python, and LLM APIs for dynamic, conversational experiences while improving UI stability to 98% through automated testing."
+      date: "January 2024 - Present"
     },
     {
      title: "Senior Frontend Developer",
       company_name: "BNY Mellon",
       icon: BNY,
         iconBg: "#FFC0CB",
-      date: "July 2023 - December 2023",
-      desc: 
-        "Built interactive React dashboards and drag-and-drop workflows, boosting engagement by 40%. Streamlined CI/CD pipelines with Docker and Jenkins, reducing release cycles by 35% and modernizing deployments on AWS."
+      date: "July 2023 - December 2023"
       },
     {
       title: "Frontend Developer",
       company_name: "Cognizant",
       icon: Cognizant,
         iconBg: "#FFB6C1",
-      date: "July 2018 - December 2021",
-    desc:
-        "Delivered responsive, accessible Next.js apps with REST and GraphQL integrations. Migrated legacy jQuery to React 17 and deployed cloud-native apps on GCP, enhancing performance and maintainability."
+      date: "July 2018 - December 2021"
     },
     
   ];
