@@ -17,6 +17,8 @@ import {
     citi,
     BNY,
     Cognizant,
+    AbbVie,
+    JohnLewis,
    
     threejs,
     EMart,
@@ -144,10 +146,17 @@ import {
       },
     {
       title: "Frontend Developer",
-      company_name: "Cognizant",
-      icon: Cognizant,
+      company_name: "AbbVie",
+      icon: AbbVie,
         iconBg: "#FFB6C1",
-      date: "July 2018 - December 2021"
+      date: "March 2020 - December 2021"
+    },
+    {
+      title: "Frontend Developer",
+      company_name: "John Lewis Partnership",
+      icon: JohnLewis,
+        iconBg: "#FFD1DC",
+      date: "July 2018 - March 2020"
     },
     
   ];

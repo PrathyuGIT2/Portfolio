@@ -26,6 +26,8 @@ import angular from "./tech/angular.png";
 import Cognizant from "./company/Cognizant.png";
 import citi from "./company/citi.png";
 import BNY from "./company/BNY.png";
+import AbbVie from "./company/AbbVie.png";
+import JohnLewis from "./company/JohnLewis.png";
 import EMart from "./EMart.png";
 import expense from "./expense.png";
 import hospital from "./hospital.png";
@@ -57,6 +59,8 @@ export {
   Cognizant,
   BNY,
   citi,
+  AbbVie,
+  JohnLewis,
   EMart,
   expense,
   hospital,
