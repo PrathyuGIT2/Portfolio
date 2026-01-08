@@ -1,8 +1,8 @@
 const styles = {
-  paddingX: "sm:px-16 px-6",
+  paddingX: "sm:px-16 px-4",
   // Further reduce vertical paddings to tighten gaps between sections
   paddingY: "sm:py-4 py-2",
-  padding: "sm:px-16 px-6 sm:py-4 py-2",
+  padding: "sm:px-16 px-4 sm:py-4 py-2",
   
     heroHeadText:
       "display-font font-bold text-secondary lg:text-[60px] sm:text-[48px] xs:text-[40px] text-[36px] lg:leading-[72px] mt-2 text-shadow tracking-tight",

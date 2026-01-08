@@ -19,11 +19,12 @@ const App = () => {
   <div className="relative w-full mt-2 mb-5 lg:mt-4 lg:mb-8">
     {/* Use full width with same horizontal padding as section headers for perfect alignment */}
     <div className={`${styles.paddingX} w-full`}>
-      <div className="max-w-7xl flex items-center gap-3">
-            {/* Left binary code lines - 20 columns vertically stacked (symmetry) */}
-            <div className="flex gap-1">
+      <div className="max-w-7xl flex items-center gap-1 md:gap-2 lg:gap-3">
+            {/* Left binary code lines - hidden on mobile, fewer on tablet, more on desktop */}
+            <div className="hidden md:flex gap-1">
+              {/* Show 10 columns on md, 20 on lg */}
               {[...Array(20)].map((_, col) => (
-                <div key={`left-col-${col}`} className="flex flex-col gap-1 font-mono text-xs opacity-70 overflow-hidden">
+                <div key={`left-col-${col}`} className={`flex flex-col gap-1 font-mono text-[10px] md:text-xs opacity-70 overflow-hidden ${col >= 10 ? 'hidden lg:flex' : ''}`}>
                   {['1', '0', '1', '1', '0', '1', '0', '1', '1', '0', '1', '0', '1', '1'].map((bit, row) => (
                     <div
                       key={`left-${col}-${row}`}
@@ -37,19 +38,20 @@ const App = () => {
               ))}
             </div>
             
-            <div className="relative flex-1">
+            <div className="relative flex-1 w-full">
               <img
                 src={vibe}
                 alt="Creative divider"
-                className="w-full h-56 lg:h-72 object-cover rounded-2xl shadow-xl border border-white/20"
+                className="w-full h-40 sm:h-48 md:h-56 lg:h-72 object-cover rounded-xl md:rounded-2xl shadow-xl border border-white/20"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-pink-300/40 via-purple-300/40 to-pink-300/40 rounded-2xl mix-blend-soft-light pointer-events-none"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-pink-300/40 via-purple-300/40 to-pink-300/40 rounded-xl md:rounded-2xl mix-blend-soft-light pointer-events-none"></div>
             </div>
             
-            {/* Right binary code lines - 20 columns vertically stacked (matched left) */}
-            <div className="flex gap-1">
+            {/* Right binary code lines - hidden on mobile, fewer on tablet, more on desktop */}
+            <div className="hidden md:flex gap-1">
+              {/* Show 10 columns on md, 20 on lg */}
               {[...Array(20)].map((_, col) => (
-                <div key={`right-col-${col}`} className="flex flex-col gap-1 font-mono text-xs opacity-70 overflow-hidden">
+                <div key={`right-col-${col}`} className={`flex flex-col gap-1 font-mono text-[10px] md:text-xs opacity-70 overflow-hidden ${col >= 10 ? 'hidden lg:flex' : ''}`}>
                   {['0', '1', '0', '1', '1', '0', '1', '1', '0', '1', '0', '1', '1', '0'].map((bit, row) => (
                     <div
                       key={`right-${col}-${row}`}

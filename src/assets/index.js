@@ -1,5 +1,5 @@
 import logo from "./p logo.png";
-import prathyusha from "./prathyusha.png";
+import prathyusha from "./prathyu.png";
 import frontend from "./frontend.png";
 import web from "./web.png";
 import UI from "./UI.png";
