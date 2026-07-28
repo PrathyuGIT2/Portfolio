@@ -11,7 +11,7 @@ import { CanvasTexture, LinearFilter } from "three";
 
 import CanvasLoader from "../Loader";
 
-// Create a warm fall gradient texture for the ball surface
+// Create a pink -> lavender gradient texture for the ball surface
 const createGradientTexture = () => {
   const size = 256;
   const canvas = document.createElement("canvas");
@@ -19,11 +19,11 @@ const createGradientTexture = () => {
   canvas.height = size;
   const ctx = canvas.getContext("2d");
 
-  // Diagonal linear gradient for a rich autumn blend
+  // Diagonal linear gradient for a soft blend
   const grad = ctx.createLinearGradient(0, 0, size, size);
-  // Warm fall gradient: amber -> pumpkin
-  grad.addColorStop(0, "#F2C57C"); // amber
-  grad.addColorStop(1, "#D95F1A"); // pumpkin orange
+  // Slightly darker pastel gradient: blush pink -> soft lavender
+  grad.addColorStop(0, "#FFD1DC"); // blush pink
+  grad.addColorStop(1, "#D4C5F9"); // soft lavender
 
   ctx.fillStyle = grad;
   ctx.fillRect(0, 0, size, size);

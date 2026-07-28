@@ -43,7 +43,7 @@ const Navbar = () => {
           <div
             role="img"
             aria-label="PS logo"
-            className='w-14 h-14 rounded-full bg-white flex items-center justify-center shadow-lg hover:bg-orange-50 transition-all duration-300 border-2 border-orange-300'
+            className='w-14 h-14 rounded-full bg-white flex items-center justify-center shadow-lg hover:bg-pink-50 transition-all duration-300 border-2 border-pink-300'
           >
             <svg
               width='44'
@@ -53,7 +53,7 @@ const Navbar = () => {
               className='w-11 h-11 transform hover:scale-105 transition-transform duration-300'
               aria-hidden='true'
             >
-              <circle cx='16' cy='16' r='16' fill='#D95F1A' />
+              <circle cx='16' cy='16' r='16' fill='#FFB6D9' />
               <text 
                 x='50%' 
                 y='55%' 

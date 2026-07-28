@@ -5,18 +5,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-  // Fall theme palette
-  primary: "#D95F1A", // Pumpkin orange
-  background: "#FFF2E0", // Warm cream background
-  secondary: "#AE4E1D", // Burnt orange accent
-  lavender: "#C27A2C", // Coppery accent for gradient use
-        blush: "#F2C57C", // Amber accent
-        softgray: "#6B4C36", // Warm neutral text/support
-        tertiary: "#F9E5D1", // Soft panel background
-        // Retain legacy tokens mapped to fall tones
-        "black-100": "#D95F1A",
-        "black-200": "#F2C57C",
-        "white-100": "#FFF2E0",
+  // Theme palette refresh (Nov 2025)
+  primary: "#FFC1CC", // Light Pink (primary brand color)
+  background: "#FFFFFF", // Global page background
+  secondary: "#FFC1CC", // Use Light Pink for headings and brand accents
+  lavender: "#C3AED6", // Lavender secondary accent
+        blush: "#FFD1DC", // Soft blush accent
+        softgray: "#A9A9A9", // Neutral text/support
+        tertiary: "#FFE4E1", // Legacy soft panel background (kept for subtle sections)
+        // Retain legacy tokens (could deprecate later) mapped to closest new tones
+        "black-100": "#FFC1CC",
+        "black-200": "#FFD1DC",
+        "white-100": "#FFFFFF",
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
