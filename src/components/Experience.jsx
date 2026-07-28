@@ -18,7 +18,7 @@ const ExperienceCard = ({ experience }) => {
               className='w-6 h-6 object-contain'
             />
           ) : (
-            <span className='text-xs font-bold uppercase tracking-wide text-pink-700'>
+            <span className='text-xs font-bold uppercase tracking-wide text-amber-700'>
               {experience.company_name?.slice(0, 2) || "EX"}
             </span>
           )}

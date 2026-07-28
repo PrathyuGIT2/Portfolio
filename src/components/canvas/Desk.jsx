@@ -69,7 +69,7 @@ const DeskScene = () => {
     <group>
       <ambientLight intensity={0.7} />
       <directionalLight position={[3, 4, 2]} intensity={0.9} color={'#FFD6E8'} castShadow />
-      <pointLight position={[-3, 2, 2]} intensity={0.6} color={'#C3AED6'} />
+      <pointLight position={[-3, 2, 2]} intensity={0.6} color={'#D95F1A'} />
 
       <Table />
       <Laptop />

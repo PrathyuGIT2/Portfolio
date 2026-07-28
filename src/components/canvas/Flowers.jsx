@@ -138,12 +138,12 @@ function createLeafGeometry() {
   return geometry;
 }
 
-// Lighter pastel colors for 3D flowers with proper lighting
+// Warm autumn colors for 3D flowers with proper lighting
 const flowerColors = {
-  pink: new THREE.Color(0xFFB6D9),      // Light pink
-  pinkLight: new THREE.Color(0xFFC9E5), // Very light pink
-  lavender: new THREE.Color(0xD4A5D4),  // Light lavender
-  lavenderLight: new THREE.Color(0xE6D5F5), // Very light lavender
+  pink: new THREE.Color(0xD95F1A),      // Pumpkin orange
+  pinkLight: new THREE.Color(0xF2C57C), // Light amber
+  lavender: new THREE.Color(0xB55A1D),  // Copper brown
+  lavenderLight: new THREE.Color(0xE8D1A3), // Light golden
 };
 
 // Autumn leaf colors
@@ -431,8 +431,8 @@ const FlowersCanvas = () => {
       <Canvas camera={{ position: [0, 0, 10], fov: 60 }}>
         <Suspense fallback={null}>
           <ambientLight intensity={0.6} />
-          <pointLight position={[10, 10, 10]} intensity={0.8} color="#FFB6D9" />
-          <pointLight position={[-10, -10, 5]} intensity={0.6} color="#C3AED6" />
+          <pointLight position={[10, 10, 10]} intensity={0.8} color="#F2C57C" />
+          <pointLight position={[-10, -10, 5]} intensity={0.6} color="#D95F1A" />
           <directionalLight position={[5, 5, 5]} intensity={0.4} color="#FFFFFF" />
           <group rotation={[0, 0, 0]}>
             <FlowersFalling />

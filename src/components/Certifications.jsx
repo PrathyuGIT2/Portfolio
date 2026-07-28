@@ -21,7 +21,7 @@ const certs = [
 ];
 
 const Ribbon = () => (
-  <div className="absolute -top-3 left-6 bg-gradient-to-r from-[#FFC1CC] to-[#C3AED6] text-[#5E4B6F] text-xs font-semibold px-3 py-1 rounded-full shadow">
+  <div className="absolute -top-3 left-6 bg-gradient-to-r from-[#F2C57C] to-[#D95F1A] text-[#462B17] text-xs font-semibold px-3 py-1 rounded-full shadow">
     Certified
   </div>
 );
