@@ -11,11 +11,17 @@ const ExperienceCard = ({ experience }) => {
     <div className='soft-card p-6 h-full flex flex-col'>
       <div className='flex items-center gap-4'>
         <div className='icon-pastel'>
-          <img
-            src={experience.icon}
-            alt={experience.company_name}
-            className='w-6 h-6 object-contain'
-          />
+          {experience.icon ? (
+            <img
+              src={experience.icon}
+              alt={experience.company_name}
+              className='w-6 h-6 object-contain'
+            />
+          ) : (
+            <span className='text-xs font-bold uppercase tracking-wide text-pink-700'>
+              {experience.company_name?.slice(0, 2) || "EX"}
+            </span>
+          )}
         </div>
         <div>
           <h3 className='heading-font pink-text-gradient text-xl lg:text-2xl font-extrabold'>
@@ -28,6 +34,9 @@ const ExperienceCard = ({ experience }) => {
       </div>
       {experience.date && (
         <p className='mt-3 text-softgray text-sm heading-font'>{experience.date}</p>
+      )}
+      {experience.location && (
+        <p className='mt-1 text-softgray text-sm heading-font'>{experience.location}</p>
       )}
       {experience.desc && (
         <p className='mt-4 text-softgray text-base leading-relaxed heading-font'>

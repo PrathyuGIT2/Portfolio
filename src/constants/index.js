@@ -131,11 +131,20 @@ import {
   
   const experiences = [
     {
-      title: "Senior UI Developer",
+      title: "Senior React Developer",
+      company_name: "Fidelity Investments",
+      icon: null,
+      iconBg: "#E8F0FE",
+      date: "Mar 2026 - Present",
+      location: "Westlake, TX, US"
+    },
+    {
+      title: "Senior Angular Developer",
       company_name: "Citibank",
       icon: citi,
-        iconBg: "#FFE4E1",
-      date: "January 2024 - Present"
+      iconBg: "#FFE4E1",
+      date: "Apr 2024 - Feb 2026",
+      location: "New Castle, DE, US"
     },
     {
      title: "Senior Frontend Developer",
