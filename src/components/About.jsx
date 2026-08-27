@@ -15,7 +15,8 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-6 heading-font text-softgray text-base lg:text-lg leading-relaxed text-shadow-strong'
-      >Passionate and results-driven Senior Frontend Developer with around 6 years of experience in designing and building scalable, high-performance, and accessible web applications using React.js, Angular, TypeScript, and Node.js. Skilled in architecting responsive SPAs, enhancing rendering efficiency, and collaborating with cross-functional teams to deliver enterprise-grade digital solutions. Proficient in micro frontends, CI/CD automation, and cloud-native deployments, with a strong focus on transforming UX concepts into seamless, interactive user experiences.
+      >
+        <strong>Senior Application Developer</strong> with strong frontend expertise in <strong>React.js, Angular, TypeScript, JavaScript, HTML5, and CSS3</strong>. Experienced in building responsive and scalable web applications, reusable UI components, and micro frontends. Skilled in <strong>Java, Spring Boot, Microservices, REST APIs, Node.js, CI/CD, cloud deployments, and full-stack development</strong>. Strong team player focused on building reliable, user-friendly, and high-performance applications.
       </motion.p>
 
       {/* Service cards removed per request */}

@@ -11,7 +11,6 @@ const Hero = () => {
           <div className="flex flex-col lg:flex-row items-center lg:items-center gap-6 lg:gap-1">
             <div className="flex-1 flex flex-col gap-4 md:gap-6 w-full">
               <h1 className={`section-title`}>Hey! I'm Prathyusha Sama</h1>
-              <h2 className={`section-title mb-2 md:mb-4`} style={{fontSize:'clamp(1.6rem,4vw,2.8rem)'}}>Front-End Developer</h2>
               <p className={`heading-font text-lg md:text-xl lg:text-2xl text-softgray leading-relaxed max-w-3xl text-shadow-strong`}>
                 I'm passionate about creating beautiful and engaging user interfaces that bring ideas to life.
               </p>

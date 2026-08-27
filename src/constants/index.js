@@ -131,7 +131,7 @@ import {
   
   const experiences = [
     {
-      title: "Senior Frontend Developer",
+      title: "Senior Web Developer",
       company_name: "Fidelity Investments",
       icon: null,
       iconBg: "#E8F0FE",
@@ -139,7 +139,7 @@ import {
       location: "Westlake, TX, US"
     },
     {
-      title: "Senior Frontend Developer",
+      title: "Senior Application Developer",
       company_name: "Citibank",
       icon: citi,
       iconBg: "#FFE4E1",
@@ -154,14 +154,14 @@ import {
       date: "July 2023 - December 2023"
       },
     {
-      title: "Frontend Developer",
+      title: "Software Developer",
       company_name: "AbbVie",
       icon: AbbVie,
         iconBg: "#FFB6C1",
       date: "March 2020 - December 2021"
     },
     {
-      title: "Frontend Developer",
+      title: "Software Developer",
       company_name: "John Lewis Partnership",
       icon: JohnLewis,
         iconBg: "#FFD1DC",
